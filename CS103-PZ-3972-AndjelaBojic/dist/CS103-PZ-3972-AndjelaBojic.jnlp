@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CS103-PZ-3972-AndjelaBojic.jnlp">
+  <information>
+    <title>CS103-PZ-3972-AndjelaBojic</title>
+    <vendor>Private</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CS103-PZ-3972-AndjelaBojic.jar" size="25620" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CS103-PZ-3972-AndjelaBojic" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cs103.pz.pkg3972.andjelabojic.Main"  name="CS103-PZ-3972-AndjelaBojic" />
+  <update check="always"/>
+</jnlp>
